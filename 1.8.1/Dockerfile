@@ -1,4 +1,4 @@
-FROM golang:1.9
+FROM golang:1.8.1
 MAINTAINER YAMASAKI Masahide <masahide.y@gmail.com>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
