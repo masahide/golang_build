@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.12-stretch
 MAINTAINER YAMASAKI Masahide <masahide.y@gmail.com>
 
 RUN echo "deb http://http.debian.net/debian stretch-backports main contrib non-free" | tee /etc/apt/sources.list.d/stretch-backports.list \
